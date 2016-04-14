@@ -1,0 +1,42 @@
+$navbarHeight: 100px
+
+.navbar
+	background: white
+	margin: 0
+	.container
+		position: relative
+	.navbar-header
+		.navbar-brand
+			display: block
+			background: url('../img/logo-2x.jpg') center center no-repeat
+			background-size: auto 34px
+			padding: 0
+			width: 110px
+			height: $navbarHeight
+			text-indent: -9999px
+	.navbar-collapse
+		.navbar-nav
+			margin-top: 20px
+			li
+				&.active
+					a
+						background: transparent
+				a
+					padding: 15px 30px
+					line-height: 40px
+					font-size: 15px
+					text-transform: uppercase
+					color: $grey
+					&:hover
+						color: $blue
+					&.btn-primary
+						padding: 12px 30px
+						color: white
+						line-height: 1
+						margin: 16px 0 0 30px
+						&:hover, &:active, &:focus
+							background: darken($orange, 5%)
+							&:hover
+								background: darken($orange, 5%)
+
+
