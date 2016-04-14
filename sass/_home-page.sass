@@ -49,6 +49,13 @@ body.home
 				width: 24px
 			&.eye
 				width: 32px
+		.btn-default
+			border: 2px solid white
+			color: white
+			&:hover
+				background: white
+				color: $blue
+				border-color: white
 
 	.living-room
 		height: 540px
@@ -83,6 +90,19 @@ body.home
 	.app
 		background: $ash
 		min-height: 540px
+		.carousel-inner
+			.item
+				padding: 0 140px
+			img
+				width: 267px
+				height: auto
+		h3
+			font-size: 40px
+			margin-top: 100px
+		p
+			font-size: 19px
+			line-height: 1.6
+			font-weight: 100
 
 	.router
 		height: 400px
@@ -92,6 +112,8 @@ body.home
 	.features
 		background: $darkGrey
 		color: white
+		h2
+			margin-bottom: 50px
 		.bucket
 			position: relative
 		.glyphicon
@@ -128,26 +150,30 @@ body.home
 			padding: 0 15px
 			font-style: italic
 			border: none
-			font-size: 14px
+			font-size: 15px
 			line-height: 1.7
 			margin: 0 0 30px
 			clear: both
 			small
+				&:before
+					display: none
 				margin-top: 20px
-				font-size: 14px
+				font-size: 15px
 				font-style: normal
 				font-weight: bold
 				color: $text
 				font-family: 'Open Sans', sans-serif
-				em
-					//display: block
+				span
+					display: block
 					white-space: normal
 					font-weight: normal
 					font-style: normal
-					font-size: 12px
+					font-size: 14px
 			img
 				height: 20px
 				width: auto
+		.btn-primary
+			margin: 30px 0
 
 	.pricing
 		background: #535253
@@ -163,7 +189,7 @@ body.home
 				line-height: 1.5
 				small
 					display: block
-					font-size: 19px
+					font-size: 15px
 					font-weight: 100
 					color: white
 					margin: 0
@@ -171,19 +197,20 @@ body.home
 				display: block
 				color: #d3d3d3
 				font-size: 65px
-				margin-bottom: 15px
+				margin-bottom: 0
 				font-weight: 100
 			.discount
 				text-decoration: line-through
 				display: block
 				color: #d3d3d3
 				font-size: 23px
-				margin-bottom: 15px
+				margin-bottom: 30px
 				font-weight: 100
 			.btn-primary
 				margin-bottom: 40px
 
 	.faq
+		background: $ash
 		.panel-group
 			margin-bottom: 20px
 		.btn-primary
@@ -220,5 +247,6 @@ body.home
 								display: block
 								font-size: 20px
 								font-weight: 100
+								font-style: normal
 						.btn-primary
 							margin-bottom: 40px

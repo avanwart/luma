@@ -2,7 +2,9 @@
   background: #FF8300;
   color: white; }
   .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    background: #e67600; }
+    background: #e67600;
+    box-shadow: none;
+    outline: none; }
     .btn-primary:hover:hover, .btn-primary:active:hover, .btn-primary:focus:hover {
       background: #e67600; }
 
@@ -10,11 +12,16 @@
   background: none;
   color: #298CDA;
   font-weight: 600; }
+  .btn-default:hover {
+    color: #1f71b1; }
   .btn-default:hover, .btn-default:active, .btn-default:focus {
     background: none;
-    color: #1f71b1; }
+    box-shadow: none;
+    outline: none;
+    color: #298CDA; }
     .btn-default:hover:hover, .btn-default:active:hover, .btn-default:focus:hover {
-      background: #e67600; }
+      background: none;
+      color: #1f71b1; }
 
 .btn {
   border-radius: 4px;
@@ -24,6 +31,42 @@
   .btn i {
     margin-right: 5px;
     top: 2px; }
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity; }
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0); }
+.carousel-fade .carousel-control {
+  z-index: 2;
+  background: none; }
+  .carousel-fade .carousel-control .right-chevron {
+    background: url("../img/right-arrow.png") center center no-repeat;
+    width: 28px;
+    height: 100%;
+    background-size: 28px auto;
+    display: inline-block; }
+  .carousel-fade .carousel-control .left-chevron {
+    background: url("../img/left-arrow.png") center center no-repeat;
+    width: 28px;
+    height: 100%;
+    background-size: 28px auto;
+    display: inline-block; }
+.carousel-fade .carousel-indicators li {
+  border-color: #7D7D7D; }
+.carousel-fade .carousel-indicators .active {
+  background-color: #7D7D7D; }
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -142,8 +185,8 @@ section {
   .panel-group .panel {
     border-radius: 2px;
     margin-bottom: 1em;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-    border: none; }
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid #d9d9d9; }
     .panel-group .panel .panel-heading {
       background: white; }
       .panel-group .panel .panel-heading .panel-title {
@@ -152,7 +195,8 @@ section {
           font-size: 16px;
           line-height: 1.5;
           text-shadow: none;
-          font-weight: normal; }
+          font-weight: normal;
+          color: #7D7D7D; }
           .panel-group .panel .panel-heading .panel-title a .glyphicon {
             color: #FF8300;
             font-size: 0.75em;
@@ -170,7 +214,7 @@ section {
       background: #f9f9f9;
       font-size: 16px;
       line-height: 1.6;
-      padding: 10px 15px 15px;
+      padding: 15px 20px;
       text-shadow: none;
       color: #7D7D7D; }
       .panel-group .panel .panel-collapse .panel-body p {
@@ -315,6 +359,13 @@ body.home {
       width: 24px; }
     body.home .features img.eye {
       width: 32px; }
+  body.home .features .btn-default {
+    border: 2px solid white;
+    color: white; }
+    body.home .features .btn-default:hover {
+      background: white;
+      color: #298CDA;
+      border-color: white; }
   body.home .living-room {
     height: 540px;
     background: url("../img/living-room.jpg") center bottom no-repeat;
@@ -345,6 +396,18 @@ body.home {
   body.home .app {
     background: #f9f9f9;
     min-height: 540px; }
+    body.home .app .carousel-inner .item {
+      padding: 0 140px; }
+    body.home .app .carousel-inner img {
+      width: 267px;
+      height: auto; }
+    body.home .app h3 {
+      font-size: 40px;
+      margin-top: 100px; }
+    body.home .app p {
+      font-size: 19px;
+      line-height: 1.6;
+      font-weight: 100; }
   body.home .router {
     height: 400px;
     background: url("../img/router.jpg") center bottom no-repeat;
@@ -352,6 +415,8 @@ body.home {
   body.home .features {
     background: #404041;
     color: white; }
+    body.home .features h2 {
+      margin-bottom: 50px; }
     body.home .features .bucket {
       position: relative; }
     body.home .features .glyphicon {
@@ -386,25 +451,30 @@ body.home {
     padding: 0 15px;
     font-style: italic;
     border: none;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.7;
     margin: 0 0 30px;
     clear: both; }
     body.home .testimonials blockquote small {
       margin-top: 20px;
-      font-size: 14px;
+      font-size: 15px;
       font-style: normal;
       font-weight: bold;
       color: #7D7D7D;
       font-family: "Open Sans", sans-serif; }
-      body.home .testimonials blockquote small em {
+      body.home .testimonials blockquote small:before {
+        display: none; }
+      body.home .testimonials blockquote small span {
+        display: block;
         white-space: normal;
         font-weight: normal;
         font-style: normal;
-        font-size: 12px; }
+        font-size: 14px; }
     body.home .testimonials blockquote img {
       height: 20px;
       width: auto; }
+  body.home .testimonials .btn-primary {
+    margin: 30px 0; }
   body.home .pricing {
     background: #535253;
     color: white; }
@@ -418,7 +488,7 @@ body.home {
       line-height: 1.5; }
       body.home .pricing .bucket h3 small {
         display: block;
-        font-size: 19px;
+        font-size: 15px;
         font-weight: 100;
         color: white;
         margin: 0; }
@@ -426,21 +496,23 @@ body.home {
       display: block;
       color: #d3d3d3;
       font-size: 65px;
-      margin-bottom: 15px;
+      margin-bottom: 0;
       font-weight: 100; }
     body.home .pricing .bucket .discount {
       text-decoration: line-through;
       display: block;
       color: #d3d3d3;
       font-size: 23px;
-      margin-bottom: 15px;
+      margin-bottom: 30px;
       font-weight: 100; }
     body.home .pricing .bucket .btn-primary {
       margin-bottom: 40px; }
-  body.home .faq .panel-group {
-    margin-bottom: 20px; }
-  body.home .faq .btn-primary {
-    margin-top: 20px; }
+  body.home .faq {
+    background: #f9f9f9; }
+    body.home .faq .panel-group {
+      margin-bottom: 20px; }
+    body.home .faq .btn-primary {
+      margin-top: 20px; }
   body.home .modal .modal-dialog {
     width: 900px; }
     body.home .modal .modal-dialog .modal-content {
@@ -469,7 +541,8 @@ body.home {
           body.home .modal .modal-dialog .modal-content .modal-body .bucket h3 em {
             display: block;
             font-size: 20px;
-            font-weight: 100; }
+            font-weight: 100;
+            font-style: normal; }
         body.home .modal .modal-dialog .modal-content .modal-body .bucket .btn-primary {
           margin-bottom: 40px; }
 

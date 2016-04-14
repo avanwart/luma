@@ -4486,6 +4486,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/app-screen-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44869,
+		"inputAbbreviatedPath": "\/img\/app-screen-1.jpg",
+		"outputAbbreviatedPath": "\/img\/app-screen-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-screen-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57644,
+		"inputAbbreviatedPath": "\/img\/app-screen-2.jpg",
+		"outputAbbreviatedPath": "\/img\/app-screen-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-screen-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44647,
+		"inputAbbreviatedPath": "\/img\/app-screen-3.jpg",
+		"outputAbbreviatedPath": "\/img\/app-screen-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-screen-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47740,
+		"inputAbbreviatedPath": "\/img\/app-screen-4.jpg",
+		"outputAbbreviatedPath": "\/img\/app-screen-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-screen-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52154,
+		"inputAbbreviatedPath": "\/img\/app-screen-5.jpg",
+		"outputAbbreviatedPath": "\/img\/app-screen-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/eye-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4515,6 +4570,39 @@
 		"initialSize": 1186,
 		"inputAbbreviatedPath": "\/img\/facebook-icon.png",
 		"outputAbbreviatedPath": "\/img\/facebook-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/headshot-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6698,
+		"inputAbbreviatedPath": "\/img\/headshot-1.jpg",
+		"outputAbbreviatedPath": "\/img\/headshot-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/headshot-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13603,
+		"inputAbbreviatedPath": "\/img\/headshot-2.jpg",
+		"outputAbbreviatedPath": "\/img\/headshot-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/headshot-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9668,
+		"inputAbbreviatedPath": "\/img\/headshot-3.jpg",
+		"outputAbbreviatedPath": "\/img\/headshot-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4581,6 +4669,17 @@
 		"initialSize": 74152,
 		"inputAbbreviatedPath": "\/img\/kelley-headshot.jpg",
 		"outputAbbreviatedPath": "\/img\/kelley-headshot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/left-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1923,
+		"inputAbbreviatedPath": "\/img\/left-arrow.png",
+		"outputAbbreviatedPath": "\/img\/left-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4691,6 +4790,17 @@
 		"initialSize": 2611,
 		"inputAbbreviatedPath": "\/img\/pinterest-icon.png",
 		"outputAbbreviatedPath": "\/img\/pinterest-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/right-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1872,
+		"inputAbbreviatedPath": "\/img\/right-arrow.png",
+		"outputAbbreviatedPath": "\/img\/right-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
