@@ -415,6 +415,8 @@ body.home {
   body.home .features {
     background: #404041;
     color: white; }
+    body.home .features .col-lg-offset-2 {
+      margin-left: 20%; }
     body.home .features h2 {
       margin-bottom: 50px; }
     body.home .features .bucket {
