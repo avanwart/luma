@@ -343,6 +343,9 @@ body.home {
       font-size: 26px;
       margin-bottom: 1.5em;
       text-align: left; }
+    body.home .hero .btn-default {
+      font-size: 20px;
+      padding: 11px 40px 12px; }
   body.home .logos {
     background: #b2b3b5;
     padding: 2em 0; }
@@ -482,39 +485,41 @@ body.home {
     color: white; }
     body.home .pricing h2 {
       margin-bottom: 60px; }
-    body.home .pricing .bucket img {
-      margin-top: 40px; }
-    body.home .pricing .bucket h3 {
-      font-size: 32px;
-      font-weight: normal;
-      line-height: 1.5; }
-      body.home .pricing .bucket h3 small {
+    body.home .pricing .bucket {
+      text-align: center; }
+      body.home .pricing .bucket img {
+        margin-top: 40px; }
+      body.home .pricing .bucket h3 {
+        font-size: 32px;
+        font-weight: normal;
+        line-height: 1.5; }
+        body.home .pricing .bucket h3 small {
+          display: block;
+          font-size: 15px;
+          font-weight: 100;
+          color: white;
+          margin: 0; }
+      body.home .pricing .bucket .price {
         display: block;
-        font-size: 15px;
-        font-weight: 100;
-        color: white;
-        margin: 0; }
-    body.home .pricing .bucket .price {
-      display: block;
-      color: #d3d3d3;
-      font-size: 65px;
-      margin-bottom: 0;
-      font-weight: 100; }
-    body.home .pricing .bucket .discount {
-      text-decoration: line-through;
-      display: block;
-      color: #d3d3d3;
-      font-size: 23px;
-      margin-bottom: 30px;
-      font-weight: 100; }
-    body.home .pricing .bucket .btn-primary {
-      margin-bottom: 40px; }
+        color: #d3d3d3;
+        font-size: 65px;
+        margin-bottom: 0;
+        font-weight: 100; }
+      body.home .pricing .bucket .discount {
+        text-decoration: line-through;
+        display: block;
+        color: #d3d3d3;
+        font-size: 23px;
+        margin-bottom: 30px;
+        font-weight: 100; }
+      body.home .pricing .bucket .btn-primary {
+        margin-bottom: 40px; }
   body.home .faq {
     background: #f9f9f9; }
     body.home .faq .panel-group {
       margin-bottom: 20px; }
     body.home .faq .btn-primary {
-      margin-top: 20px; }
+      margin: 20px 0 30px; }
   body.home .modal .modal-dialog {
     width: 900px; }
     body.home .modal .modal-dialog .modal-content {
@@ -539,14 +544,21 @@ body.home {
           font-size: 32px;
           font-weight: normal;
           line-height: 1.8;
-          margin-bottom: 30px; }
+          margin-bottom: 0px; }
           body.home .modal .modal-dialog .modal-content .modal-body .bucket h3 em {
             display: block;
-            font-size: 20px;
+            font-size: 26px;
             font-weight: 100;
             font-style: normal; }
         body.home .modal .modal-dialog .modal-content .modal-body .bucket .btn-primary {
           margin-bottom: 40px; }
+        body.home .modal .modal-dialog .modal-content .modal-body .bucket .discount {
+          text-decoration: line-through;
+          display: block;
+          color: #d3d3d3;
+          font-size: 20px;
+          margin-bottom: 30px;
+          font-weight: 100; }
 
 .bar {
   transition: all 0.5s ease-in-out;
@@ -1515,8 +1527,8 @@ body.home {
       float: left; }
       .footer ul li a {
         color: white;
-        font-size: 16px;
-        padding: 10px 20px; }
+        font-size: 15px;
+        padding: 10px 15px; }
         .footer ul li a:hover {
           background: none;
           color: white;
