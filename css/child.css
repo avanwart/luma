@@ -322,6 +322,8 @@ body.home {
       margin-bottom: 40px; }
       body.home section h1.flat, body.home section h2.flat {
         margin: 0 0 10px; }
+    body.home section p {
+      font-weight: 100; }
     body.home section .intro {
       text-align: center;
       margin-bottom: 2em;
@@ -389,7 +391,7 @@ body.home {
       margin-bottom: 20px; }
     body.home .how img.apt {
       height: 80px;
-      margin: 40px 0 100px; }
+      margin: 51px 0 89px; }
     body.home .how img.house {
       height: 200px;
       margin: 0 0 20px; }
@@ -424,6 +426,9 @@ body.home {
       margin-bottom: 50px; }
     body.home .features .bucket {
       position: relative; }
+      body.home .features .bucket p {
+        font-size: 17px;
+        padding-right: 40px; }
     body.home .features .glyphicon {
       position: absolute;
       left: -15px;
@@ -490,9 +495,9 @@ body.home {
       body.home .pricing .bucket img {
         margin-top: 40px; }
       body.home .pricing .bucket h3 {
-        font-size: 32px;
+        font-size: 28px;
         font-weight: normal;
-        line-height: 1.5; }
+        line-height: 1.8; }
         body.home .pricing .bucket h3 small {
           display: block;
           font-size: 15px;
