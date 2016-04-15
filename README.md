@@ -1,2 +1,2 @@
-# luma
-We would like this hosted in your root directory where index.php lives in a sub-folder called /home.
+# Installation Instructions
+Please downlaod and install this self-contained directory in your root of your site in a folder called /home.
