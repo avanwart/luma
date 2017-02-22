@@ -34,20 +34,24 @@
 
 .carousel-fade .carousel-inner .item {
   transition-property: opacity; }
+
 .carousel-fade .carousel-inner .item,
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   opacity: 0; }
+
 .carousel-fade .carousel-inner .active,
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1; }
+
 .carousel-fade .carousel-inner .next,
 .carousel-fade .carousel-inner .prev,
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   left: 0;
   transform: translate3d(0, 0, 0); }
+
 .carousel-fade .carousel-control {
   z-index: 2;
   background: none; }
@@ -63,21 +67,23 @@
     height: 100%;
     background-size: 28px auto;
     display: inline-block; }
+
 .carousel-fade .carousel-indicators li {
   border-color: #7D7D7D; }
+
 .carousel-fade .carousel-indicators .active {
   background-color: #7D7D7D; }
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: #f0f0f0;
   font-size: 15px;
   color: #7D7D7D; }
   body.modal-open {
     margin: 0; }
   body h1, body h2, body h3, body h4 {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     margin-top: 0; }
     body h1.flat, body h2.flat, body h3.flat, body h4.flat {
@@ -199,7 +205,7 @@ section {
           color: #7D7D7D; }
           .panel-group .panel .panel-heading .panel-title a .glyphicon {
             color: #FF8300;
-            font-size: 0.75em;
+            font-size: .75em;
             margin-right: 5px; }
           .panel-group .panel .panel-heading .panel-title a .glyphicon-minus, .panel-group .panel .panel-heading .panel-title a .glyphicon-triangle-bottom {
             display: inline-block; }
@@ -224,6 +230,7 @@ section {
 
 form .control-label {
   font-size: 15px; }
+
 form .form-control {
   border-radius: 0;
   background: white;
@@ -236,8 +243,10 @@ form .form-control {
   transition: width 1s ease-in-out; }
   form .form-control.error {
     border-color: #298CDA; }
+
 form .placeholder {
   color: #aaaaaa; }
+
 form label.error {
   font-size: 13px;
   font-weight: normal;
@@ -247,8 +256,10 @@ form label.error {
   display: block;
   border-radius: 0 0 4px 4px;
   margin-top: -1px; }
+
 form input[type="tel"] {
   -webkit-user-select: none; }
+
 form select.form-control {
   -webkit-appearance: none;
   background: white url("../images/dd-arrow.jpg") 97% 12px no-repeat;
@@ -262,6 +273,7 @@ form select.form-control {
     outline: 1px; }
   form select.form-control.valid {
     color: #212121; }
+
 form.intake-form .form-group {
   position: relative;
   margin-bottom: 6px; }
@@ -330,7 +342,7 @@ body.home {
       font-size: 18px; }
   body.home .hero {
     min-height: 480px;
-    background: url("../img/hero-bg.jpg") 100% 0% no-repeat;
+    background: url("../img/new-hero-bg.jpg") center center no-repeat;
     background-size: cover;
     text-align: left; }
     body.home .hero h1 {
@@ -338,13 +350,15 @@ body.home {
       font-size: 36px;
       line-height: 1.3;
       text-align: left;
-      font-weight: normal; }
+      font-weight: normal;
+      color: white; }
     body.home .hero h2 {
       font-weight: 100;
       line-height: 1.5;
       font-size: 26px;
       margin-bottom: 1.5em;
-      text-align: left; }
+      text-align: left;
+      color: white; }
     body.home .hero .btn-default {
       font-size: 20px;
       padding: 11px 40px 12px; }
@@ -447,7 +461,7 @@ body.home {
   body.home .testimonials h1 {
     margin-bottom: 40px; }
     body.home .testimonials h1 i {
-      font-size: 0.8em;
+      font-size: .8em;
       margin: 0 8px 0 4px; }
   body.home .testimonials h2 {
     font-weight: normal;
@@ -471,7 +485,7 @@ body.home {
       font-style: normal;
       font-weight: bold;
       color: #7D7D7D;
-      font-family: "Open Sans", sans-serif; }
+      font-family: 'Open Sans', sans-serif; }
       body.home .testimonials blockquote small:before {
         display: none; }
       body.home .testimonials blockquote small span {
@@ -534,7 +548,7 @@ body.home {
         border: none; }
         body.home .modal .modal-dialog .modal-content .modal-header .close {
           text-shadow: none;
-          opacity: 0.85;
+          opacity: .85;
           color: white;
           font-size: 32px; }
           body.home .modal .modal-dialog .modal-content .modal-header .close:hover {
@@ -566,11 +580,11 @@ body.home {
           font-weight: 100; }
 
 .bar {
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
   top: 0; }
   .bar.affix {
     top: 60px;
-    transition: all 0.5s ease-in-out; }
+    transition: all .5s ease-in-out; }
 
 .main-content .card input[type="submit"] {
   display: block;
@@ -578,17 +592,19 @@ body.home {
   background: #e63d25;
   border: 1px solid #c22c16;
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   padding: 16px 40px;
   line-height: 1;
   height: auto; }
   .main-content .card input[type="submit"]:hover {
     background: #c22c16; }
+
 .main-content .card hr {
   display: inline-block;
   width: 30%;
   margin: 40px 0; }
+
 .main-content .card header {
   background-size: cover;
   background-position: 50% 50%;
@@ -611,6 +627,7 @@ body.home {
       line-height: 260px;
       border: none;
       text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); }
+
 .main-content .card article, .main-content .card .inner {
   padding: 40px; }
   .main-content .card article h3, .main-content .card .inner h3 {
@@ -630,37 +647,45 @@ body.home {
     margin: 0 0 20px; }
   .about .well ul li {
     margin-bottom: 10px; }
+
 .about form .form-group {
   margin-bottom: 20px; }
+
 .about form input, .about form select {
   border-radius: 2px;
   height: 38px;
   font-size: 16px; }
+
 .about form select {
   padding-left: 15px; }
+
 .about form textarea {
   min-height: 150px; }
+
 .about form .btn {
   display: block;
   width: 100%;
   background: #e63d25;
   border: 1px solid #c22c16;
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   padding: 16px 40px;
   line-height: 1;
   height: auto; }
   .about form .btn:hover {
     background: #c22c16; }
+
 .about form select.active {
   color: #212121; }
 
 .leadership h2 {
   margin: 0 0 30px; }
+
 .leadership .person {
   text-align: center;
   min-height: 240px; }
+
 .leadership .headshot {
   border: none;
   border-radius: 50%;
@@ -670,10 +695,12 @@ body.home {
   width: 125px;
   height: auto;
   display: inline-block; }
+
 .leadership p {
   text-align: center; }
   .leadership p small {
     display: block; }
+
 .leadership .linkedin {
   text-align: right;
   font-size: 14px;
@@ -691,10 +718,12 @@ body.home {
     vertical-align: middle;
     margin-right: 2px;
     margin-bottom: 2px; }
+
 .leadership hr {
   display: inline-block;
   width: 30%;
   margin: 40px 0; }
+
 .leadership .modal-dialog {
   width: 800px; }
   .leadership .modal-dialog p, .leadership .modal-dialog h2 {
@@ -748,6 +777,7 @@ body.home {
 
 .careers h2 {
   margin-bottom: 30px; }
+
 .careers .panel-group .panel {
   box-shadow: none; }
   .careers .panel-group .panel .btn-primary {
@@ -764,9 +794,11 @@ body.home {
     display: block;
     margin: 20px 0;
     border-color: #dadada; }
+
 .contact .main-content address span {
   display: block;
   margin-bottom: 8px; }
+
 .contact .main-content .google-map {
   position: relative;
   padding-bottom: 75%;
@@ -808,13 +840,16 @@ body.home {
 .product h2 {
   font-size: 38px;
   margin-bottom: 30px; }
+
 .product ul {
   margin: 0 0 30px 20px;
   padding: 0; }
   .product ul li {
     margin-bottom: 12px; }
+
 .product .btn-primary {
   font-size: 16px; }
+
 .product .hero {
   background: #212121 url("../images/hospital-bg.jpg") center bottom no-repeat;
   background-size: cover;
@@ -834,16 +869,19 @@ body.home {
       text-align: left;
       margin-bottom: 10px; }
       .product .hero ul li i {
-        font-size: 0.85em;
+        font-size: .85em;
         top: 0;
         margin-right: 6px; }
+
 .product .app {
   background: transparent;
   padding: 5em 0; }
+
 .product .providers {
   padding: 5em 0;
   background: white url("../images/motif-medium.jpg") 87% 50% no-repeat;
   background-size: auto 280px; }
+
 .product .patients {
   padding: 5em 0;
   background: transparent; }
@@ -852,6 +890,7 @@ body.home {
 
 .pricing section ul li {
   margin-bottom: 10px; }
+
 .pricing .hero {
   background: #212121 url("../images/rowers.jpg") center bottom no-repeat;
   background-size: cover;
@@ -861,12 +900,15 @@ body.home {
     font-size: 50px; }
   .pricing .hero h2 {
     margin-bottom: 30px; }
+
 .pricing .plans h2 {
   font-size: 38px;
   text-align: center; }
+
 .pricing .plans .intro {
   font-size: 20px;
   text-align: center; }
+
 .pricing .plans .card {
   background: #f6f6f6;
   border: 1px solid #eaeaea;
@@ -901,18 +943,21 @@ body.home {
     max-width: 100%;
     padding: 10px 0;
     font-size: 14px; }
+
 .pricing .app {
   background: transparent;
   padding: 5em 0; }
   .pricing .app h2 {
     margin-bottom: 30px;
     text-align: left; }
+
 .pricing .providers {
   padding: 5em 0;
   background: white url("../images/motif-medium.jpg") 87% 50% no-repeat;
   background-size: auto 280px; }
   .pricing .providers h2 {
     margin-bottom: 30px; }
+
 .pricing .patients {
   padding: 5em 0;
   background: transparent; }
@@ -938,6 +983,7 @@ body.home {
   font-size: 38px;
   margin-bottom: 30px;
   text-align: center; }
+
 .reimbursements ul.state-list {
   margin: 0 0 30px 20px;
   padding: 0;
@@ -947,8 +993,10 @@ body.home {
     margin-bottom: 12px; }
     .reimbursements ul.state-list li a {
       font-size: 17px; }
+
 .reimbursements .btn-primary {
   font-size: 16px; }
+
 .reimbursements .hero {
   background: #212121 url("../images/polygon-bg.jpg") center center no-repeat;
   background-size: cover;
@@ -969,9 +1017,10 @@ body.home {
       text-align: left;
       margin-bottom: 10px; }
       .reimbursements .hero ul li i {
-        font-size: 0.85em;
+        font-size: .85em;
         top: 0;
         margin-right: 6px; }
+
 .reimbursements.single .card {
   padding: 0; }
   .reimbursements.single .card article {
@@ -1004,11 +1053,11 @@ body.home {
   body.home .testimonials .thumbnail {
     height: 100px;
     width: auto; } }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .navbar .navbar-collapse .navbar-nav li a {
     padding: 15px;
     font-size: 14px; }
-
   body.home section h1, body.home section h2, body.page-template-home-page-dietitians section h1, body.page-template-home-page-dietitians section h2, body.page-template-home-page-dietitians-2 section h1, body.page-template-home-page-dietitians-2 section h2, body.page-template-home-page-primary-care-physicians section h1, body.page-template-home-page-primary-care-physicians section h2, body.page-template-home-page-cardiologists section h1, body.page-template-home-page-cardiologists section h2, body.page-template-investors section h1, body.page-template-investors section h2 {
     font-size: 2.25em; }
   body.home .hero, body.page-template-home-page-dietitians .hero, body.page-template-home-page-dietitians-2 .hero, body.page-template-home-page-primary-care-physicians .hero, body.page-template-home-page-cardiologists .hero, body.page-template-investors .hero {
@@ -1047,12 +1096,10 @@ body.home {
   body.home .testimonials .thumbnail, body.page-template-home-page-dietitians .testimonials .thumbnail, body.page-template-home-page-dietitians-2 .testimonials .thumbnail, body.page-template-home-page-primary-care-physicians .testimonials .thumbnail, body.page-template-home-page-cardiologists .testimonials .thumbnail, body.page-template-investors .testimonials .thumbnail {
     height: 100px;
     width: auto; }
-
   .product section h2 {
     font-size: 28px; }
   .product .providers {
     background-position: 150% 50%; }
-
   body.page section, body.single section {
     padding: 2em 0; }
     body.page section .container .card ul.footer-bucket, body.single section .container .card ul.footer-bucket {
@@ -1068,7 +1115,6 @@ body.home {
           display: block; }
         body.page section .container .card ul.footer-bucket li:last-child, body.single section .container .card ul.footer-bucket li:last-child {
           display: none; }
-
   body.page-template-investors section {
     padding: 3em 0; }
   body.page-template-investors .navbar .navbar-collapse .navbar-nav li a {
@@ -1089,13 +1135,14 @@ body.home {
       display: none; }
   body.page-template-investors .leadership .modal-dialog {
     width: 100%; } }
+
 @media screen and (max-width: 767px) {
   .navbar .navbar-header .navbar-brand {
-    background-size: auto 38px;
+    background-size: auto 32px;
     background-position: center center;
     padding: 0;
     margin-top: 8px;
-    width: 200px;
+    width: 120px;
     height: 40px; }
   .navbar .navbar-toggle {
     margin: 5px 5px 0 0;
@@ -1141,386 +1188,90 @@ body.home {
         padding: 12px;
         font-size: 15px;
         line-height: 1.2; }
-
-  body.home.page .container, body.page-template-home-page-dietitians .container, body.page-template-home-page-dietitians-2 .container, body.page-template-home-page-primary-care-physicians .container, body.page-template-home-page-cardiologists .container, body.page-template-investors .container {
+  body.home .container {
     margin-right: auto !important;
     margin-left: auto !important;
     padding-left: 15px !important;
     padding-right: 15px !important; }
-  body.home.page section, body.page-template-home-page-dietitians section, body.page-template-home-page-dietitians-2 section, body.page-template-home-page-primary-care-physicians section, body.page-template-home-page-cardiologists section, body.page-template-investors section {
+  body.home section {
     overflow-x: hidden;
-    padding: 3em 0 !important; }
-    body.home.page section h1, body.home.page section h2, body.page-template-home-page-dietitians section h1, body.page-template-home-page-dietitians section h2, body.page-template-home-page-dietitians-2 section h1, body.page-template-home-page-dietitians-2 section h2, body.page-template-home-page-primary-care-physicians section h1, body.page-template-home-page-primary-care-physicians section h2, body.page-template-home-page-cardiologists section h1, body.page-template-home-page-cardiologists section h2, body.page-template-investors section h1, body.page-template-investors section h2 {
-      font-size: 2em; }
-    body.home.page section .btn-default, body.page-template-home-page-dietitians section .btn-default, body.page-template-home-page-dietitians-2 section .btn-default, body.page-template-home-page-primary-care-physicians section .btn-default, body.page-template-home-page-cardiologists section .btn-default, body.page-template-investors section .btn-default {
-      border: 1px solid #dadada; }
-  body.home.page .hero, body.page-template-home-page-dietitians .hero, body.page-template-home-page-dietitians-2 .hero, body.page-template-home-page-primary-care-physicians .hero, body.page-template-home-page-cardiologists .hero, body.page-template-investors .hero {
-    display: block;
-    background-position: 78% 0%;
-    min-height: 420px;
-    padding: 2em 0 !important; }
-    body.home.page .hero h1, body.page-template-home-page-dietitians .hero h1, body.page-template-home-page-dietitians-2 .hero h1, body.page-template-home-page-primary-care-physicians .hero h1, body.page-template-home-page-cardiologists .hero h1, body.page-template-investors .hero h1 {
-      font-size: 2.25em;
-      margin-top: 0; }
-    body.home.page .hero h2, body.page-template-home-page-dietitians .hero h2, body.page-template-home-page-dietitians-2 .hero h2, body.page-template-home-page-primary-care-physicians .hero h2, body.page-template-home-page-cardiologists .hero h2, body.page-template-investors .hero h2 {
-      font-size: 18px; }
-  body.home.page .logos .logo, body.page-template-home-page-dietitians .logos .logo, body.page-template-home-page-dietitians-2 .logos .logo, body.page-template-home-page-primary-care-physicians .logos .logo, body.page-template-home-page-cardiologists .logos .logo, body.page-template-investors .logos .logo {
-    width: 50%; }
-    body.home.page .logos .logo.top, body.page-template-home-page-dietitians .logos .logo.top, body.page-template-home-page-dietitians-2 .logos .logo.top, body.page-template-home-page-primary-care-physicians .logos .logo.top, body.page-template-home-page-cardiologists .logos .logo.top, body.page-template-investors .logos .logo.top {
-      margin-bottom: 15px; }
-    body.home.page .logos .logo.bottom, body.page-template-home-page-dietitians .logos .logo.bottom, body.page-template-home-page-dietitians-2 .logos .logo.bottom, body.page-template-home-page-primary-care-physicians .logos .logo.bottom, body.page-template-home-page-cardiologists .logos .logo.bottom, body.page-template-investors .logos .logo.bottom {
-      margin-top: 15px; }
-  body.home.page .features .tabbable, body.page-template-home-page-dietitians .features .tabbable, body.page-template-home-page-dietitians-2 .features .tabbable, body.page-template-home-page-primary-care-physicians .features .tabbable, body.page-template-home-page-cardiologists .features .tabbable, body.page-template-investors .features .tabbable {
-    margin: 0; }
-  body.home.page .features .nav-tabs, body.page-template-home-page-dietitians .features .nav-tabs, body.page-template-home-page-dietitians-2 .features .nav-tabs, body.page-template-home-page-primary-care-physicians .features .nav-tabs, body.page-template-home-page-cardiologists .features .nav-tabs, body.page-template-investors .features .nav-tabs {
-    list-style-type: disc;
-    border: none;
-    border-bottom: 1px solid #efefef;
-    margin-bottom: 15px; }
-    body.home.page .features .nav-tabs li, body.page-template-home-page-dietitians .features .nav-tabs li, body.page-template-home-page-dietitians-2 .features .nav-tabs li, body.page-template-home-page-primary-care-physicians .features .nav-tabs li, body.page-template-home-page-cardiologists .features .nav-tabs li, body.page-template-investors .features .nav-tabs li {
-      display: block;
-      list-style-type: disc;
-      margin-bottom: 10px;
-      width: 50%; }
-      body.home.page .features .nav-tabs li a, body.page-template-home-page-dietitians .features .nav-tabs li a, body.page-template-home-page-dietitians-2 .features .nav-tabs li a, body.page-template-home-page-primary-care-physicians .features .nav-tabs li a, body.page-template-home-page-cardiologists .features .nav-tabs li a, body.page-template-investors .features .nav-tabs li a {
-        background: transparent;
-        text-align: center;
-        color: #298CDA;
-        border: none;
-        padding: 0; }
-      body.home.page .features .nav-tabs li.active a, body.page-template-home-page-dietitians .features .nav-tabs li.active a, body.page-template-home-page-dietitians-2 .features .nav-tabs li.active a, body.page-template-home-page-primary-care-physicians .features .nav-tabs li.active a, body.page-template-home-page-cardiologists .features .nav-tabs li.active a, body.page-template-investors .features .nav-tabs li.active a {
-        background: transparent;
-        font-weight: bold;
-        border: none;
-        color: #298CDA; }
-      body.home.page .features .nav-tabs li:last-child, body.page-template-home-page-dietitians .features .nav-tabs li:last-child, body.page-template-home-page-dietitians-2 .features .nav-tabs li:last-child, body.page-template-home-page-primary-care-physicians .features .nav-tabs li:last-child, body.page-template-home-page-cardiologists .features .nav-tabs li:last-child, body.page-template-investors .features .nav-tabs li:last-child {
-        width: 100%; }
-  body.home.page .features .tab-content .tab-pane, body.page-template-home-page-dietitians .features .tab-content .tab-pane, body.page-template-home-page-dietitians-2 .features .tab-content .tab-pane, body.page-template-home-page-primary-care-physicians .features .tab-content .tab-pane, body.page-template-home-page-cardiologists .features .tab-content .tab-pane, body.page-template-investors .features .tab-content .tab-pane {
-    padding: 0px;
-    background: transparent;
-    border: none; }
-    body.home.page .features .tab-content .tab-pane h3, body.page-template-home-page-dietitians .features .tab-content .tab-pane h3, body.page-template-home-page-dietitians-2 .features .tab-content .tab-pane h3, body.page-template-home-page-primary-care-physicians .features .tab-content .tab-pane h3, body.page-template-home-page-cardiologists .features .tab-content .tab-pane h3, body.page-template-investors .features .tab-content .tab-pane h3 {
-      font-size: 18px;
-      text-align: left;
-      margin-bottom: 10px;
-      font-weight: normal;
-      line-height: 1.3; }
-    body.home.page .features .tab-content .tab-pane .btn-lg, body.page-template-home-page-dietitians .features .tab-content .tab-pane .btn-lg, body.page-template-home-page-dietitians-2 .features .tab-content .tab-pane .btn-lg, body.page-template-home-page-primary-care-physicians .features .tab-content .tab-pane .btn-lg, body.page-template-home-page-cardiologists .features .tab-content .tab-pane .btn-lg, body.page-template-investors .features .tab-content .tab-pane .btn-lg {
-      width: 100%;
-      display: block;
-      margin-bottom: 10px; }
-    body.home.page .features .tab-content .tab-pane .btn-default, body.page-template-home-page-dietitians .features .tab-content .tab-pane .btn-default, body.page-template-home-page-dietitians-2 .features .tab-content .tab-pane .btn-default, body.page-template-home-page-primary-care-physicians .features .tab-content .tab-pane .btn-default, body.page-template-home-page-cardiologists .features .tab-content .tab-pane .btn-default, body.page-template-investors .features .tab-content .tab-pane .btn-default {
-      border: 1px solid #dadada; }
-  body.home.page .pricing .card, body.page-template-home-page-dietitians .pricing .card, body.page-template-home-page-dietitians-2 .pricing .card, body.page-template-home-page-primary-care-physicians .pricing .card, body.page-template-home-page-cardiologists .pricing .card, body.page-template-investors .pricing .card {
-    background: none;
-    border-bottom: 1px solid #efefef; }
-    body.home.page .pricing .card h2, body.page-template-home-page-dietitians .pricing .card h2, body.page-template-home-page-dietitians-2 .pricing .card h2, body.page-template-home-page-primary-care-physicians .pricing .card h2, body.page-template-home-page-cardiologists .pricing .card h2, body.page-template-investors .pricing .card h2 {
-      margin: 0px 5px 0 0;
-      display: inline-block;
-      text-align: left;
-      font-size: 26px;
-      font-weight: normal; }
-    body.home.page .pricing .card h3, body.page-template-home-page-dietitians .pricing .card h3, body.page-template-home-page-dietitians-2 .pricing .card h3, body.page-template-home-page-primary-care-physicians .pricing .card h3, body.page-template-home-page-cardiologists .pricing .card h3, body.page-template-investors .pricing .card h3 {
-      display: inline-block;
-      text-align: left;
-      margin-bottom: 15px; }
-      body.home.page .pricing .card h3 small, body.page-template-home-page-dietitians .pricing .card h3 small, body.page-template-home-page-dietitians-2 .pricing .card h3 small, body.page-template-home-page-primary-care-physicians .pricing .card h3 small, body.page-template-home-page-cardiologists .pricing .card h3 small, body.page-template-investors .pricing .card h3 small {
-        margin: 0; }
-    body.home.page .pricing .card .btn-primary, body.page-template-home-page-dietitians .pricing .card .btn-primary, body.page-template-home-page-dietitians-2 .pricing .card .btn-primary, body.page-template-home-page-primary-care-physicians .pricing .card .btn-primary, body.page-template-home-page-cardiologists .pricing .card .btn-primary, body.page-template-investors .pricing .card .btn-primary {
-      display: block;
-      padding: 10px 30px;
-      width: 75%;
-      margin: 0 auto; }
-    body.home.page .pricing .card .save, body.page-template-home-page-dietitians .pricing .card .save, body.page-template-home-page-dietitians-2 .pricing .card .save, body.page-template-home-page-primary-care-physicians .pricing .card .save, body.page-template-home-page-cardiologists .pricing .card .save, body.page-template-investors .pricing .card .save {
-      top: -10px;
-      right: -10px;
-      border: none;
-      width: 52px;
-      height: 52px; }
-  body.home.page .testimonials h1, body.page-template-home-page-dietitians .testimonials h1, body.page-template-home-page-dietitians-2 .testimonials h1, body.page-template-home-page-primary-care-physicians .testimonials h1, body.page-template-home-page-cardiologists .testimonials h1, body.page-template-investors .testimonials h1 {
-    font-size: 24px; }
-  body.home.page .testimonials .testimonial, body.page-template-home-page-dietitians .testimonials .testimonial, body.page-template-home-page-dietitians-2 .testimonials .testimonial, body.page-template-home-page-primary-care-physicians .testimonials .testimonial, body.page-template-home-page-cardiologists .testimonials .testimonial, body.page-template-investors .testimonials .testimonial {
-    display: none; }
-    body.home.page .testimonials .testimonial:first-child, body.page-template-home-page-dietitians .testimonials .testimonial:first-child, body.page-template-home-page-dietitians-2 .testimonials .testimonial:first-child, body.page-template-home-page-primary-care-physicians .testimonials .testimonial:first-child, body.page-template-home-page-cardiologists .testimonials .testimonial:first-child, body.page-template-investors .testimonials .testimonial:first-child {
-      display: block; }
-      body.home.page .testimonials .testimonial:first-child blockquote, body.page-template-home-page-dietitians .testimonials .testimonial:first-child blockquote, body.page-template-home-page-dietitians-2 .testimonials .testimonial:first-child blockquote, body.page-template-home-page-primary-care-physicians .testimonials .testimonial:first-child blockquote, body.page-template-home-page-cardiologists .testimonials .testimonial:first-child blockquote, body.page-template-investors .testimonials .testimonial:first-child blockquote {
-        border: none; }
-  body.home.page .testimonials blockquote, body.page-template-home-page-dietitians .testimonials blockquote, body.page-template-home-page-dietitians-2 .testimonials blockquote, body.page-template-home-page-primary-care-physicians .testimonials blockquote, body.page-template-home-page-cardiologists .testimonials blockquote, body.page-template-investors .testimonials blockquote {
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    margin-bottom: 20px; }
-  body.home.page .faq h1, body.page-template-home-page-dietitians .faq h1, body.page-template-home-page-dietitians-2 .faq h1, body.page-template-home-page-primary-care-physicians .faq h1, body.page-template-home-page-cardiologists .faq h1, body.page-template-investors .faq h1 {
-    font-size: 22px; }
-  body.home.page .faq p.text-center, body.page-template-home-page-dietitians .faq p.text-center, body.page-template-home-page-dietitians-2 .faq p.text-center, body.page-template-home-page-primary-care-physicians .faq p.text-center, body.page-template-home-page-cardiologists .faq p.text-center, body.page-template-investors .faq p.text-center {
-    font-size: 14px; }
-  body.home.page .faq .panel-group .panel, body.page-template-home-page-dietitians .faq .panel-group .panel, body.page-template-home-page-dietitians-2 .faq .panel-group .panel, body.page-template-home-page-primary-care-physicians .faq .panel-group .panel, body.page-template-home-page-cardiologists .faq .panel-group .panel, body.page-template-investors .faq .panel-group .panel {
-    border: 1px solid #ccc; }
-  body.home.page .faq .panel-group .panel .panel-heading .panel-title a .glyphicon, body.page-template-home-page-dietitians .faq .panel-group .panel .panel-heading .panel-title a .glyphicon, body.page-template-home-page-dietitians-2 .faq .panel-group .panel .panel-heading .panel-title a .glyphicon, body.page-template-home-page-primary-care-physicians .faq .panel-group .panel .panel-heading .panel-title a .glyphicon, body.page-template-home-page-cardiologists .faq .panel-group .panel .panel-heading .panel-title a .glyphicon, body.page-template-investors .faq .panel-group .panel .panel-heading .panel-title a .glyphicon {
-    margin-right: 4px; }
-
-  .footer span.hidden-xs {
-    display: none !important; }
-  .footer .bucket {
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-    margin-bottom: 20px;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05); }
-    .footer .bucket.badges {
-      border: none;
-      box-shadow: none;
-      margin: 0; }
-      .footer .bucket.badges img {
-        margin-top: 0 !important; }
-
-  body.page .modal .modal-dialog, body.single .modal .modal-dialog {
-    width: 100%;
-    padding: 0; }
-    body.page .modal .modal-dialog .modal-content, body.single .modal .modal-dialog .modal-content {
-      border: none;
-      border-radius: 0; }
-      body.page .modal .modal-dialog .modal-content .modal-body p, body.single .modal .modal-dialog .modal-content .modal-body p {
-        font-size: 15px; }
-  body.page section, body.single section {
-    padding: 0;
-    overflow-x: hidden; }
-    body.page section .container, body.single section .container {
-      padding-left: 0;
-      padding-right: 0; }
-      body.page section .container .card, body.single section .container .card {
-        margin-bottom: 0; }
-        body.page section .container .card article, body.page section .container .card .inner, body.single section .container .card article, body.single section .container .card .inner {
-          padding: 20px 15px; }
-        body.page section .container .card header, body.single section .container .card header {
-          height: 150px; }
-          body.page section .container .card header .overlay, body.single section .container .card header .overlay {
-            height: 150px; }
-            body.page section .container .card header .overlay h1, body.single section .container .card header .overlay h1 {
-              line-height: 150px;
-              font-size: 36px; }
-        body.page section .container .card ul.footer-bucket, body.single section .container .card ul.footer-bucket {
-          background: #efefef;
-          overflow: auto;
-          padding: 10px 0; }
-          body.page section .container .card ul.footer-bucket li, body.single section .container .card ul.footer-bucket li {
-            float: left;
-            width: 50%;
-            text-align: center; }
-            body.page section .container .card ul.footer-bucket li a, body.single section .container .card ul.footer-bucket li a {
-              padding: 8px 0;
-              display: block; }
-            body.page section .container .card ul.footer-bucket li:last-child, body.single section .container .card ul.footer-bucket li:last-child {
-              display: none; }
-    body.page section.about .card, body.single section.about .card {
-      border: none; }
-    body.page section.about.single, body.single section.about.single {
-      background: red; }
-    body.page section.leadership .card header .overlay h1, body.single section.leadership .card header .overlay h1 {
-      font-size: 32px; }
-    body.page section.leadership .card .person, body.single section.leadership .card .person {
-      min-height: 100px;
-      height: auto;
-      margin-bottom: 40px; }
-      body.page section.leadership .card .person:last-child, body.single section.leadership .card .person:last-child {
-        margin-bottom: 0; }
-    body.page section.leadership .card h2, body.single section.leadership .card h2 {
-      font-size: 28px; }
-    body.page section.testimonials .card article blockquote, body.single section.testimonials .card article blockquote {
-      padding: 0; }
-    body.page section.faq, body.single section.faq {
-      padding: 30px 0; }
-      body.page section.faq .container, body.single section.faq .container {
-        padding: 0 15px; }
-      body.page section.faq h1, body.single section.faq h1 {
-        font-size: 28px; }
-    body.page section.press-hits .card article, body.single section.press-hits .card article {
-      padding: 0 10px;
-      margin-bottom: 5px; }
-      body.page section.press-hits .card article small, body.single section.press-hits .card article small {
-        color: #777; }
-      body.page section.press-hits .card article .logo, body.single section.press-hits .card article .logo {
-        background-size: 85px auto; }
-      body.page section.press-hits .card article .table, body.single section.press-hits .card article .table {
-        margin-bottom: 5px; }
-        body.page section.press-hits .card article .table td.col-sm-9, body.single section.press-hits .card article .table td.col-sm-9 {
-          width: 65% !important; }
-      body.page section.press-hits .card article h2, body.single section.press-hits .card article h2 {
-        font-size: 16px;
-        font-weight: normal; }
-    body.page section.press-hits.customers .card article .table td.col-sm-9, body.single section.press-hits.customers .card article .table td.col-sm-9 {
-      width: 100% !important; }
-      body.page section.press-hits.customers .card article .table td.col-sm-9 h2, body.single section.press-hits.customers .card article .table td.col-sm-9 h2 {
-        margin-top: 20px;
-        font-weight: normal; }
-    body.page section.signup .card, body.single section.signup .card {
-      width: 100%;
-      padding: 15px; }
-      body.page section.signup .card h1, body.single section.signup .card h1 {
-        font-size: 22px; }
-  body.page .product .container, body.single .product .container {
-    padding: 0 15px; }
-  body.page .product .hero, body.single .product .hero {
-    padding: 50px 0; }
-    body.page .product .hero h1, body.single .product .hero h1 {
-      font-size: 28px;
-      margin-bottom: 30px; }
-    body.page .product .hero h2, body.single .product .hero h2 {
-      font-size: 18px;
-      display: none; }
-    body.page .product .hero ul, body.single .product .hero ul {
-      margin: 0 0 20px 20px;
-      padding: 0;
-      list-style-type: disc; }
-      body.page .product .hero ul li, body.single .product .hero ul li {
-        font-size: 16px; }
-        body.page .product .hero ul li i, body.single .product .hero ul li i {
-          display: none; }
-  body.page .product section.app, body.page .product section.providers, body.page .product section.patients, body.single .product section.app, body.single .product section.providers, body.single .product section.patients {
-    padding: 40px 0;
-    background-image: none; }
-    body.page .product section.app .btn-primary, body.page .product section.providers .btn-primary, body.page .product section.patients .btn-primary, body.single .product section.app .btn-primary, body.single .product section.providers .btn-primary, body.single .product section.patients .btn-primary {
-      width: 100%; }
-    body.page .product section.app h2, body.page .product section.providers h2, body.page .product section.patients h2, body.single .product section.app h2, body.single .product section.providers h2, body.single .product section.patients h2 {
-      font-size: 24px;
-      text-align: center;
-      margin-bottom: 20px; }
-    body.page .product section.app img, body.page .product section.providers img, body.page .product section.patients img, body.single .product section.app img, body.single .product section.providers img, body.single .product section.patients img {
-      margin-bottom: 20px; }
-  body.page .pricing, body.single .pricing {
     padding: 3em 0; }
-    body.page .pricing .container, body.single .pricing .container {
-      padding: 0 15px; }
-    body.page .pricing .hero, body.single .pricing .hero {
-      display: none; }
-    body.page .pricing .card, body.single .pricing .card {
-      background: white;
-      border-color: #dadada;
-      margin-bottom: 20px !important; }
-      body.page .pricing .card h2, body.single .pricing .card h2 {
-        margin: 0px 5px 0 0;
-        display: inline-block;
-        text-align: left;
-        font-size: 26px;
-        font-weight: normal; }
-      body.page .pricing .card h3, body.single .pricing .card h3 {
-        display: inline-block;
-        text-align: left;
-        margin-bottom: 15px; }
-        body.page .pricing .card h3 small, body.single .pricing .card h3 small {
-          margin: 0; }
-      body.page .pricing .card .btn-primary, body.single .pricing .card .btn-primary {
-        display: block;
-        padding: 10px 30px;
-        width: 60%;
-        margin: 0 auto; }
-      body.page .pricing .card .save, body.single .pricing .card .save {
-        display: none;
-        top: -10px;
-        right: -10px;
-        border: none;
-        width: 52px;
-        height: 52px; }
-
-  body.page-id-508 .about .container .card header .overlay h1 {
-    font-size: 30px; }
-  body.page-id-508 .about .container .card form fieldset {
-    max-width: 100%;
-    padding: 0;
-    margin: 0; }
-    body.page-id-508 .about .container .card form fieldset .form-control, body.page-id-508 .about .container .card form fieldset label, body.page-id-508 .about .container .card form fieldset input[type="submit"] {
-      max-width: 290px; }
-
-  body.page-template-investors section {
-    padding: 2em 0; }
-  body.page-template-investors .hero {
-    padding: 2em 0;
-    height: auto;
-    text-align: center; }
-    body.page-template-investors .hero h1 {
-      margin: 0 0 20px;
-      text-align: center;
-      font-size: 30px; }
-    body.page-template-investors .hero .card .investors {
+    body.home section h2 {
+      font-size: 32px; }
+  body.home .hero {
+    background-position: 75% 50%;
+    min-height: 420px; }
+    body.home .hero h1 {
+      margin-top: 0;
+      font-size: 32px; }
+    body.home .hero h2 {
+      font-size: 18px; }
+    body.home .hero .btn-primary, body.home .hero .btn-default {
+      width: 100%;
+      margin-bottom: 10px; }
+  body.home .logos {
+    padding: 1em 0; }
+    body.home .logos img {
+      height: auto; }
+  body.home .features .col-lg-offset-2 {
+    margin-left: 40px; }
+    body.home .features .col-lg-offset-2 .bucket p {
       padding: 0; }
-    body.page-template-investors .hero .card .col-sm-6.first, body.page-template-investors .hero .card .col-sm-6.last {
-      padding: 0 15px; }
-  body.page-template-investors .logo {
-    width: 50% !important; }
-    body.page-template-investors .logo.top {
-      margin-bottom: 15px !important; }
-    body.page-template-investors .logo.bottom {
-      margin-top: 15px !important; }
-  body.page-template-investors .market, body.page-template-investors .testimonials, body.page-template-investors .investors {
-    padding: 2em 0; }
-    body.page-template-investors .market .container, body.page-template-investors .testimonials .container, body.page-template-investors .investors .container {
-      padding-left: 15px;
-      padding-right: 15px; }
-    body.page-template-investors .market h2, body.page-template-investors .testimonials h2, body.page-template-investors .investors h2 {
-      font-size: 26px;
-      line-height: 1.3; }
-    body.page-template-investors .market p.intro, body.page-template-investors .testimonials p.intro, body.page-template-investors .investors p.intro {
-      font-size: 16px; }
-    body.page-template-investors .market small, body.page-template-investors .testimonials small, body.page-template-investors .investors small {
-      margin-bottom: 15px; }
-    body.page-template-investors .market .person, body.page-template-investors .testimonials .person, body.page-template-investors .investors .person {
-      height: auto;
-      min-height: 100px; }
+  body.home .how h3 {
+    margin-bottom: 30px; }
+  body.home .how .bucket {
+    padding-bottom: 30px;
+    border-bottom: 1px dotted #dadada;
+    margin-bottom: 30px; }
+    body.home .how .bucket p {
+      margin: 0;
+      font-size: 17px; }
+  body.home .how img {
+    margin: 0 0 30px 0 !important; }
+    body.home .how img.setup {
+      height: 140px; }
+    body.home .how img.apt {
+      height: 60px; }
+    body.home .how img.house {
+      height: 150px; }
+  body.home .how .visible-xs {
+    display: inline-block !important;
+    margin-right: 8px; }
+  body.home .app {
+    background: #fff; }
+    body.home .app h2 {
+      font-size: 30px; }
+    body.home .app .carousel-inner .item {
+      padding: 0; }
+      body.home .app .carousel-inner .item .col-xs-12 {
+        text-align: center; }
+      body.home .app .carousel-inner .item .img-responsive {
+        display: inline-block;
+        height: 300px;
+        width: auto;
+        margin-bottom: 20px; }
+      body.home .app .carousel-inner .item h3 {
+        margin: 0 0 30px;
+        font-size: 24px; }
+      body.home .app .carousel-inner .item p {
+        font-size: 16px;
+        margin-bottom: 20px; }
+      body.home .app .carousel-inner .item .btn-primary {
+        width: 100%; }
+    body.home .app .carousel-control {
+      height: 300px;
+      bottom: auto; }
+  body.home .testimonials .btn-primary {
+    width: 100%; }
+  body.home .faq h2 {
+    font-size: 28px; }
+  body.home .faq .btn-primary {
+    width: 100%; }
+  body.home .pricing h2 {
+    font-size: 38px; }
+  body.home .pricing .btn-primary {
+    width: 100%; } }
 
-  body.page-template-home-page-dietitians .hero, body.page-template-home-page-dietitians-2 .hero {
-    background-image: url("../images/hero-bg-dietitians-mobile.jpg") !important; }
-  body.page-template-home-page-dietitians .pricing .save, body.page-template-home-page-dietitians-2 .pricing .save {
-    display: none !important; }
-  body.page-template-home-page-dietitians .pricing .card .btn-primary, body.page-template-home-page-dietitians-2 .pricing .card .btn-primary {
-    display: block;
-    padding: 10px 30px;
-    width: 75%;
-    margin: 0 auto; }
-
-  .reimbursements section .container {
-    padding-left: 15px !important;
-    padding-right: 15px !important; }
-  .reimbursements .hero {
-    background: #212121 url("../images/polygon-bg.jpg") center center no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 2em 0; }
-    .reimbursements .hero h1 {
-      font-size: 24px;
-      margin: 30px 0 10px 0; }
-    .reimbursements .hero h2 {
-      font-size: 16px;
-      margin: 0 0 30px; }
-  .reimbursements .states {
-    padding: 2.5em 0; }
-    .reimbursements .states h2 {
-      font-size: 28px;
-      text-align: center; }
-  .reimbursements.single .card {
-    padding: 0; }
-    .reimbursements.single .card article {
-      padding: 60px; }
-    .reimbursements.single .card h1 {
-      margin-bottom: 40px; }
-    .reimbursements.single .card p {
-      font-size: 18px;
-      line-height: 29px; }
-    .reimbursements.single .card footer {
-      padding: 60px 0;
-      background: #212121 url("../images/polygon-bg-orange.jpg") center center no-repeat;
-      background-size: cover;
-      color: white;
-      text-align: center; }
-      .reimbursements.single .card footer h2 {
-        color: white;
-        font-size: 36px;
-        margin: 0 0 20px;
-        line-height: 1.4; }
-      .reimbursements.single .card footer .btn-default {
-        border: none;
-        background: white; }
-        .reimbursements.single .card footer .btn-default:hover {
-          background: #efefef; } }
 .footer {
   margin-top: 0;
   background: #404041;
